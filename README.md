@@ -4,13 +4,12 @@ Este projeto contém um script em Python que filtra dados de um arquivo CSV com 
 
 ## Funcionalidades
 
-- Filtra os dados de um arquivo CSV com base em uma coluna específica (`SIGLA_USINA`).
-- Permite ao usuário inserir os nomes das usinas a serem filtradas.
+- Filtra os dados de um arquivo CSV com base em uma coluna específicada pelo usário.
+- Permite ao usuário inserir os nomes a serem filtradas.
 - Processa arquivos CSV grandes em pedaços (chunks) para evitar problemas de memória.
 - Salva os dados filtrados em um arquivo Excel no formato `.xlsx`.
 
 ## Requisitos
-
 - Python 3.7 ou superior
 - Bibliotecas Python:
   - `pandas`
@@ -22,3 +21,7 @@ Este projeto contém um script em Python que filtra dados de um arquivo CSV com 
    ```bash
    git clone https://github.com/MatheusSMarruda/extrator_de_arquivos.git
    cd extrator_de_arquivos
+2.Instale as dependências:
+  ```bash
+   pip install pandas openpyxl
+````
